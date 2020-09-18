@@ -29,7 +29,7 @@ const Register = (props) => {
 
   return (
     <>
-      <Header />
+      <Header isRegister />
       <section className='register'>
         <section className='register__container'>
           <h2>Regístrate</h2>
