@@ -24,6 +24,8 @@ const reverseString = (str, callback) => {
 
 test('Probar un Callback', () => {
   reverseString('Hola', (str) =>{
-    expect(str).toBe('alo')
+    expect(str).toBe('aloH')
   })
 });
+
+
